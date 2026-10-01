@@ -1,0 +1,24 @@
+# Vivado generated files
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.gen/
+runs/
+xsim.dir/
+
+# Vivado logs and temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.tmp
+*.bak
+*.dcp
+*.rpt
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
