@@ -80,6 +80,10 @@ docs/
   AXI4_Stream_Async_FIFO_Report.pdf
 ```
 
+## Documentation
+
+The project report can be added under `docs/` alongside waveform and implementation screenshots.
+
 ## Tools
 
 - Verilog
