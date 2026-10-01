@@ -66,6 +66,15 @@ Vivado implementation results included:
 - Hold TNS: 0 ns
 - Hold failing endpoints: 0
 
+Post-implementation resource utilization was:
+
+- LUT: 30 / 53,200 (0.06%)
+- LUTRAM: 8 / 17,400 (0.05%)
+- FF: 40 / 106,400 (0.04%)
+- BUFG: 2 / 32 (6.25%)
+
+Vivado estimated total on-chip power at 0.108 W; the report marked the power estimate confidence as Low.
+
 ## Repository Layout
 
 ```
@@ -76,13 +85,22 @@ rtl/
 tb/
   tb_async_fifo.sv
 
+constraints/
+  timing_constraints.xdc
+
 docs/
   AXI4_Stream_Async_FIFO_Report.pdf
+  waveform.png
+  utilization.png
+  timing power.png
 ```
 
 ## Documentation
 
-The project report can be added under `docs/` alongside waveform and implementation screenshots.
+- [Project Report](docs/AXI4_Stream_Async_FIFO_Report.pdf)
+- [Simulation Waveform](docs/waveform.png)
+- [Post-Implementation Utilization](docs/utilization.png)
+- [Timing and Power Summary](docs/timing%20power.png)
 
 ## Tools
 
